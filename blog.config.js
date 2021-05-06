@@ -1,22 +1,22 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  title: ' Jarvis Industry',
+  author: ' Jarvis Ma',
+  email: 'realjarvisma@icloud.com',
+  link: 'https://blog.jarvisma.com',
+  description: ' Positive Pessimist.',
   lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#111827', // use hex value, don't forget '#'
+  darkBackground: '#0D1116', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // if leave this empty, current year will be used.
-  postsPerPage: 7,
+  since: 2017, // if leave this empty, current year will be used.
+  postsPerPage: 10,
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/JarvisMa',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -36,13 +36,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
-      admin: [],
-      clientID: '',
-      clientSecret: '',
+      repo: 'nob', // The repository of store comments
+      owner: 'jarvisma7',
+      admin: 'jarvisma7',
+      clientID: 'f1d994a3364debb5f1e1',
+      clientSecret: '6a3245630db4829841ee620fd05282ec1d53bb86',
       distractionFreeMode: false
     },
     utterancesConfig: {
