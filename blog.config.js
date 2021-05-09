@@ -4,7 +4,7 @@ const BLOG = {
   email: 'realjarvisma@icloud.com',
   link: 'https://blog.jarvisma.com',
   description: ' Positive Pessimist.',
-  lang: 'en-US',
+  lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -14,7 +14,6 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: false,
   showAbout: true, // WIP
-  showGallery: true, // WIP
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   socialLink: 'https://twitter.com/JarvisMa',
