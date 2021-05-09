@@ -14,6 +14,7 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: false,
   showAbout: true, // WIP
+  showGallery: true, // WIP
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   socialLink: 'https://twitter.com/JarvisMa',
