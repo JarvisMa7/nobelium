@@ -12,7 +12,7 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2017, // if leave this empty, current year will be used.
   postsPerPage: 10,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true, // WIP
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
