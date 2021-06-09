@@ -4,7 +4,7 @@ const BLOG = {
   email: 'realjarvisma@icloud.com',
   link: 'https://blog.jarvisma.com',
   description: ' Positive Pessimist.',
-  lang: 'en-US',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
